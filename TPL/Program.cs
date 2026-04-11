@@ -6,6 +6,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        Task2Runner.Run();
+        Task3Runner.Run();
     }
 }

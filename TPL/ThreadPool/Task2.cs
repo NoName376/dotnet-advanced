@@ -28,15 +28,15 @@ public class Task2
 {
     public class Producer
     {
-        private readonly TaskQueue _queue;
-        private readonly Thread _thread;
-
         public Producer(TaskQueue queue)
         {
             _queue = queue;
             
             _thread = new Thread(Run);
         }
+        
+        private readonly TaskQueue _queue;
+        private readonly Thread _thread;
         
         public void Start() => _thread.Start();
 
@@ -58,14 +58,6 @@ public class Task2
     }
     public class Consumer
     {
-        private volatile bool _running;
-
-        
-        private readonly TaskQueue _queue;
-        private readonly int _id;
-        private readonly Thread _thread;
-        
-
         public Consumer(TaskQueue queue, int id)
         {
             _queue = queue;
@@ -74,6 +66,12 @@ public class Task2
 
             _thread = new Thread(Run);
         }
+        
+        private readonly TaskQueue _queue;
+        private readonly int _id;
+        private readonly Thread _thread;
+        
+        private volatile bool _running;
         
         public void Start() => _thread.Start();
 
