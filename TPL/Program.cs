@@ -6,6 +6,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        Task4Runner.Run();
+        ThreadPool.ThreadPool.ThreadPoolRun.Run();
     }
 }
