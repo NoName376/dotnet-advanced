@@ -2,6 +2,22 @@ using BenchmarkDotNet.Attributes;
 
 namespace TPL.ThreadPool;
 
+public static class Task1Runner
+{
+    public static void Run()
+    {
+        Task1.RaceConditional();
+        Task1.LockUsage();
+        Task1.InterlockedUsage();
+        Task1.MonitorUsage();
+        Task1.MutexUsage();
+        Task1.SemaphoreUsage();
+        Task1.SemaphoreSlimUsage();
+        Task1.SpinLockUsage();
+        Task1.ReaderWriterLockUsage();
+    }
+}
+
 public static class Task1
 {
     public const int ThreadCount = 8;
