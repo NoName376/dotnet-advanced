@@ -1,6 +1,6 @@
 namespace TPL.Semaphores;
 
-public static class Task6Run
+public static class Task6Runner
 {
     public static void Run()
     {
