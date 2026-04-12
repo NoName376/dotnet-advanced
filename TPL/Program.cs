@@ -7,6 +7,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        Task7Runner.Run();
+        Task8Runner.Run();
     }
 }
