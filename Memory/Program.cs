@@ -6,6 +6,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        DisposablePattern.Run();
+        GcHandlePinning.Run();
     }
 }
