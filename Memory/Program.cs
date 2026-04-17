@@ -6,6 +6,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        GcHandlePinning.Run();
+        EventBusRunner.Run();
     }
 }
