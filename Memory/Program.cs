@@ -6,6 +6,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        EventBusRunner.Run();
+        NativeBufferRunner.Run();
     }
 }
