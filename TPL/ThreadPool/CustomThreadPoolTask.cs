@@ -1,6 +1,6 @@
 namespace TPL.ThreadPool;
 
-public static class ThreadPool
+public static class CustomThreadPoolTask
 {
     public static class ThreadPoolRun
     {

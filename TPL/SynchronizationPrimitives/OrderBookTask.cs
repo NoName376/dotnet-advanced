@@ -1,10 +1,10 @@
-namespace TPL.Semaphores;
+namespace TPL.SynchronizationPrimitives;
 
 public static class Task6Runner
 {
     public static void Run()
     {
-        var book = new Task6.OrderBook();
+        var book = new OrderBookTask.OrderBook();
         var rng = new Random();
 
         book.AddOrder(100.5m, 10, isBid: true);
@@ -52,7 +52,7 @@ public static class Task6Runner
     }
 }
 
-public class Task6
+public class OrderBookTask
 {
     public class OrderBook
     {

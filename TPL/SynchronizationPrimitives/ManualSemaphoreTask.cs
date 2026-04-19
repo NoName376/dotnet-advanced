@@ -1,10 +1,10 @@
-namespace TPL.Semaphores;
+namespace TPL.SynchronizationPrimitives;
 
 public static class Task7Runner
 {
     public static void Run()
     {
-        using var pool = new Task7.ConnectionPool(3);
+        using var pool = new ManualSemaphoreTask.ConnectionPool(3);
 
         var workers = Enumerable.Range(1, 10).Select(id => new Thread(() =>
         {
@@ -23,7 +23,7 @@ public static class Task7Runner
     }
 }
 
-public class Task7
+public class ManualSemaphoreTask
 {
     public class ManualSemaphore
     {

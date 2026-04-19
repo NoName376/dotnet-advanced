@@ -1,4 +1,4 @@
-﻿using TPL.Semaphores;
+﻿using TPL.SynchronizationPrimitives;
 using TPL.ThreadPool;
 
 namespace TPL;

@@ -1,4 +1,4 @@
-namespace TPL.Semaphores;
+namespace TPL.SynchronizationPrimitives;
 
 public static class Task8Runner
 {
