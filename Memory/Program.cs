@@ -1,4 +1,5 @@
 ﻿using Memory.GarbageCollector;
+using Memory.ZeroAlloc.BinaryProtocolParser;
 
 namespace Memory;
 
@@ -6,6 +7,6 @@ class Program
 {
     static void Main(string[] args)
     {
-        MemoryProfilerRuner.Run();
+        PacketParserDemo.Run();
     }
 }
