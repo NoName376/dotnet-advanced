@@ -1,4 +1,4 @@
-namespace TPL.SynchronizationPrimitives;
+namespace Threading.SynchronizationPrimitives;
 
 public static class Task7Runner
 {

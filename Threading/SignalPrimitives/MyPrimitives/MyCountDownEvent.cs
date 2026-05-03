@@ -1,4 +1,4 @@
-namespace TPL.SignalPrimitives.Primitives;
+namespace Threading.SignalPrimitives.MyPrimitives;
 
 public class MyCountdownEvent
 {

@@ -1,6 +1,4 @@
-using BenchmarkDotNet.Attributes;
-
-namespace TPL.ThreadPool;
+namespace Threading.ThreadPool;
 
 public static class Task1Runner
 {

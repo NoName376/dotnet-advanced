@@ -1,6 +1,6 @@
 using System.Collections.Concurrent;
 
-namespace TPL.ThreadPool;
+namespace Threading.ThreadPool;
 
 public static class Task2Runner
 {

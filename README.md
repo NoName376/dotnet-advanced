@@ -1,11 +1,19 @@
 ## Introduction
 The repository contains practical examples and exercises to help you move from a Junior/Middle level to a confident Middle/Senior Performance developer.
 
+---
+
 ## Contents
-- [Memory Solution](#memory-solution)
-- [TPL Solution](#tpl-solution)
+### [1. Memory](#memory-solution)
+- [Garbage Collector](#1-garbage-collector)
+- [Zero Allocation](#2-zero-allocation)
 
+### [2. Threading](#threading-solution)
+- [ThreadPool](#1-threadpool-)
+- [Synchronization primitives](#2-synchronization-primitives)
+- [Signal primitives](#3-signal-primitives)
 
+---
 
 ## Memory Solution
 ### 1. [Garbage Collector](./Memory/GarbageCollector)
@@ -25,7 +33,7 @@ The repository contains practical examples and exercises to help you move from a
 - Image processing without heap allocations, (SIMD, and usafe pointer arithmetic)
 - The examples provide a comparison and analysis of execution time and the amount of allocations.
 
-## TPL Solution
+## Threading Solution
 ### 1. [ThreadPool](./TPL/ThreadPool) 
 - Interlock and Synchronization Primitives: "lock", "Monitor", "Mutex", "Semaphore", "SemaphoreSlim", "SpinLock", and "ReaderWriterLockSlim".
 - Implementing the Producer-Consumer pattern in different ways and using concurrent collections
