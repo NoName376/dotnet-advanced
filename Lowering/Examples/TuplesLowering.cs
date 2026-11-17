@@ -1,6 +1,6 @@
 namespace Lowering.Examples;
 
-public class Tuples
+public class TuplesLowering
 {
     public void Code1()
     {
