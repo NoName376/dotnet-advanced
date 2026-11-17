@@ -1,6 +1,6 @@
-namespace Lowering.Examples;
-
 using System.Collections;
+
+namespace Lowering.Primitive;
 
 public class ForeachLowering
 {

@@ -1,4 +1,4 @@
-namespace Lowering.Examples;
+namespace Lowering.Primitive;
 
 public class EventsLowering
 {
